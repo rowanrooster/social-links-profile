@@ -1,0 +1,147 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: var(--black);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --l-grey: hsl(0, 0%, 20%);
+  --d-grey: hsl(0, 0%, 12%);
+  --black: hsl(0, 0%, 8%);
+}
+
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/inter-v13-latin-regular.woff2") format("woff2"), url("../../assets/fonts/static/Inter-Regular.ttf") format("truetype");
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../assets/fonts/inter-v13-latin-600.woff2") format("woff2"), url("../../assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/fonts/inter-v13-latin-700.woff2") format("woff2"), url("../../assets/fonts/static/Inter-Bold.ttf") format("truetype");
+}
+#profile-card {
+  width: 382px;
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 40px;
+  background-color: var(--d-grey);
+  border-radius: 10px;
+}
+#profile-card #profile-header {
+  color: var(--white);
+}
+#profile-card #profile-header .profile-photo {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+#profile-card #profile-header h1 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#profile-card #profile-header h2 {
+  margin-top: 15px;
+  font-size: 0.875rem;
+  color: var(--green);
+  font-weight: 700;
+}
+#profile-card #profile-header p {
+  margin-top: 30px;
+  font-weight: 400;
+}
+#profile-card #profile-nav {
+  margin-top: 25px;
+}
+#profile-card #profile-nav .nav-link {
+  margin-bottom: 15px;
+}
+#profile-card #profile-nav .nav-link a {
+  display: block;
+  padding: 15px 0;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--l-grey);
+  border-radius: 6px;
+}
+#profile-card #profile-nav .nav-link a:hover {
+  color: var(--l-grey);
+  background-color: var(--green);
+  transition: background-color 0.2s ease-in-out;
+}
+#profile-card #profile-nav .nav-link:last-of-type {
+  margin-bottom: 0;
+}
+#profile-card:hover {
+  transform: scale(1.03);
+  transition: all 0.1s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+@media screen and (max-width: 420px) {
+  #profile-card {
+    width: 326px;
+  }
+}
+@media screen and (max-width: 340px) {
+  #profile-card {
+    width: 290px;
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 300px) {
+  body {
+    display: block;
+    background-color: var(--d-grey);
+  }
+  #profile-card {
+    width: 100%;
+    padding: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
