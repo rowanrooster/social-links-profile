@@ -82,18 +82,18 @@ img {
   border-radius: 50%;
 }
 #profile-card #profile-header h1 {
-  margin-top: 30px;
+  margin-top: 26px;
   font-size: 1.5rem;
   font-weight: 600;
 }
 #profile-card #profile-header h2 {
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 0.875rem;
   color: var(--green);
   font-weight: 700;
 }
 #profile-card #profile-header p {
-  margin-top: 30px;
+  margin-top: 26px;
   font-weight: 400;
 }
 #profile-card #profile-nav {
@@ -104,7 +104,7 @@ img {
 }
 #profile-card #profile-nav .nav-link a {
   display: block;
-  padding: 15px 0;
+  padding: 13px 0;
   font-weight: 700;
   color: var(--white);
   background-color: var(--l-grey);
