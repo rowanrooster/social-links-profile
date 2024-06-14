@@ -2,15 +2,6 @@
 
 This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
-
 ## Overview
 
 ### The challenge
@@ -22,8 +13,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/rowanrooster/blog-preview-card-html-css-sass)
-- Live Site URL: [Live Preview](https://rowanrooster.github.io/blog-preview-card-html-css-sass/)
+- Solution URL: [Github](https://github.com/rowanrooster/social-links-profile)
+- Live Site URL: [Live Preview](https://rowanrooster.github.io/social-links-profile/)
 
 ## My process
 
